@@ -15,6 +15,13 @@
 
     {% include footer.html %}
 
+    <script type="text/javascript">
+      var host = "lru.github.io";
+      if ((host == window.location.host) &&
+          (window.location.protocol != "https:"))
+        window.location.protocol = "https:";
+    </script>
+
   </body>
 
 </html>
